@@ -1,0 +1,14 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#outer-container-time {
+    display: flex;
+    width: 85px;
+    justify-content: space-between;
+}
+
+.hidden {
+    display: none;
+}
