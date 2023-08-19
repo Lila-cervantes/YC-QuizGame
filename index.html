@@ -5,18 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Game</title>
-    <link rel="stylesheet" href="./index.css"></link>
+    <link rel="stylesheet" href="./index.css">
+    </link>
 </head>
 
 <body>
     <nav>
         <a href="./highscore.html">view highscores</a>
-        <div id="outer-container-time" ><div>time left:</div>
+        <div id="outer-container-time">
+            <div>time left:</div>
             <div id="time-box"></div>
         </div>
     </nav>
+    <div id="questions">
+        <h1> Coding Quiz! </h1>
+        <p> Answer the following questions in a timely manner. Answer one question incorrectly, the timer will be docked
+            by 5 seconds! </p>
+        <ul id="responses"></ul>
+    </div>
     <main id="main"><button id="start-button">Start!</button></main>
-    
 
 </body>
 <script type="text/javascript" src="./index.js"></script>
