@@ -12,3 +12,7 @@ nav {
 .hidden {
     display: none;
 }
+
+.option {
+    list-style-type: none;
+}
