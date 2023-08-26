@@ -7,6 +7,8 @@
 
     Once, all the questions are answered the quiz is over.
 
+# Usage
 
+This Code Quiz is to create a timed quiz while using JavaScript.
 
 
