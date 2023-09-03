@@ -14,5 +14,12 @@ nav {
 }
 
 .option {
+    margin: auto;
     list-style-type: none;
+    width: 200px;
+    display: flex;
+    justify-content: start;
+}
+.option span {
+    padding-left: 30px;
 }
